@@ -94,7 +94,8 @@ You may need to update hosts file as well
 and replaced localhost with your own domain name
 ##### ZeroConf
 Once you domain has been configured you can now proceed with the installation of avahi.
-	# apt-get install avahi-daemon libnss-mdns
+
+    # apt-get install avahi-daemon libnss-mdns
 	# firewall-cmd --add-service=mdns; firewall-cmd --permanent --add-service=mdns
 
 > **NOTE:** For windows user you need to install bonjour service, you can
