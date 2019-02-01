@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2018.
+    @author Juan Caser <caserjan@gmail.com>
+
+-->
+<odoo>
+    <data>
+		<template id="assets_backend" name="NW Backend Theme" inherit_id="web.assets_backend">
+			<xpath expr=".">
+                <link rel="stylesheet" href="/backend_theme/static/src/scss/theme.scss"/>
+			</xpath>
+		</template>
+    </data>
+</odoo>
